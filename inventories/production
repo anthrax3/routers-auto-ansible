@@ -1,0 +1,5 @@
+[kenet_routers]
+router1.example.com
+
+[kenet_routers:vars]
+ansible_user=userX

@@ -1,0 +1,4 @@
+- name: Push a configuration onto the device
+  ios_template:
+    src: config.j2
+    backup: true

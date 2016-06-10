@@ -1,0 +1,9 @@
+#Routers Auto Config
+#Author: rosure@kenet.or.ke
+
+- name: Walk on all defined routers and put custom config in all of them
+  hosts: dev_routers
+
+  roles:
+    - is-is
+

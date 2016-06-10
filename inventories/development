@@ -1,0 +1,6 @@
+[dev_routers]
+127.0.0.1:2001
+
+[dev_routers:vars]
+ansible_user=userX
+
